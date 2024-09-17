@@ -1,7 +1,7 @@
 package CA221;
 public class Circle {
     //variables
-    double radius;
+    double radius;  //instance variable
     //Constructors
     //-> No argument constructor
     Circle(){
