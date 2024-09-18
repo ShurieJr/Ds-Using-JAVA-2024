@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd9d2e49-0be4-404c-bacf-53c2f87e4104" name="Changes" comment="Ds using java">
-      <change afterPath="$PROJECT_DIR$/src/CA221/TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA223/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CA221/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA221/Circle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +39,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Book.executor": "Run",
     "Application.CA223.Main.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.TV.executor": "Run",
@@ -58,7 +58,20 @@
       <recent name="C:\Users\Shuur\Downloads\ProductManagerFilterSearch\Ds-java\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TV">
+  <component name="RunManager" selected="Application.Book">
+    <configuration name="Book" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CA223.Book" />
+      <module name="Ds-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CA223.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CA223.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CA223.Main" />
       <module name="Ds-java" />
@@ -100,6 +113,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Book" />
         <item itemvalue="Application.TV" />
         <item itemvalue="Application.CA223.Main" />
         <item itemvalue="Application.Main" />
@@ -139,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726492626349</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ds using java">
+      <option name="closed" value="true" />
+      <created>1726581359562</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726581359563</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
