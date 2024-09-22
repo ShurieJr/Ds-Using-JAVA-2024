@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd9d2e49-0be4-404c-bacf-53c2f87e4104" name="Changes" comment="Ds using java">
-      <change afterPath="$PROJECT_DIR$/src/CA223/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA221/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA221/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA224/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA224/TV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CA221/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA221/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CA221/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA221/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CA224/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA224/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,15 +48,21 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Book.executor": "Run",
+    "Application.CA221.Main.executor": "Run",
     "Application.CA223.Main.executor": "Run",
+    "Application.Main (1).executor": "Run",
     "Application.Main.executor": "Run",
     "Application.TV.executor": "Run",
+    "Application.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Shuur/Downloads/ProductManagerFilterSearch/Ds-java/src",
-    "settings.editor.selected.configurable": "inlay.hints",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.40574712",
+    "settings.editor.selected.configurable": "configurable.group.build",
     "settings.editor.splitter.proportion": "0.24979524",
     "show.migrate.to.gradle.popup": "false"
   }
@@ -58,7 +72,7 @@
       <recent name="C:\Users\Shuur\Downloads\ProductManagerFilterSearch\Ds-java\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Book">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Book" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CA223.Book" />
       <module name="Ds-java" />
@@ -72,15 +86,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CA223.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CA223.Main" />
+    <configuration name="CA221.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CA221.Main" />
       <module name="Ds-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CA223.*" />
+          <option name="PATTERN" value="CA221.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Ds-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,8 +119,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CA221.TV" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CA221.test" />
       <module name="Ds-java" />
       <extension name="coverage">
         <pattern>
@@ -113,10 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Book" />
-        <item itemvalue="Application.TV" />
-        <item itemvalue="Application.CA223.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.CA221.Main" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Book" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726581359563</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Ds using java">
+      <option name="closed" value="true" />
+      <created>1726659397220</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726659397220</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -172,6 +202,17 @@
         <option value="Default.Date" />
         <option value="Default.Subject" />
       </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
