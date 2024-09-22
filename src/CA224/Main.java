@@ -27,19 +27,22 @@ public class Main {
 
         student2.name = "mohamed";
 
-        System.out.println("Student 1 Name : " + student1.name);
-        System.out.println("Student 2 Name : " + student2.name);
+//        System.out.println("Student 1 Name : " + student1.name);
+//        System.out.println("Student 2 Name : " + student2.name);
 //        System.out.println("AGE : " + student1.age);
 //        System.out.println("Score : " + student1.score);
 //        System.out.println("status : " + student1.status);
 //        System.out.println("gender : " + student1.gender);
 
-        int i = 1;
-        int j = 2;
 
-        i = j ;
-         j = 20;
-        System.out.println("i: " + i);
-        System.out.println("j : " + j);
+        Circle c1 = new Circle();
+        Circle c2 = new Circle(4);
+        Circle c3 = new Circle(55);
+        System.out.println("Number of obj (class) :" + Circle.getNumberOfObjects());
+        System.out.println("Number of obj (c1) :" + c1.numberOfObjects);
+        System.out.println("Number of obj (c2) :" + c2.numberOfObjects);
+
+
+
     }
 }
