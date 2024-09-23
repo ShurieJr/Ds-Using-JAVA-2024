@@ -1,23 +1,42 @@
 package CA223;
-public class Circle {
+
+ class Circle {
     //variables
-    double radius;
+    double radius;  //instance variable
+    static int numberOfObjects; //static variable
 
     //Constructors
     //->No argument constructor
-    Circle(){
+    Circle() {
         radius = 1.0;
+        numberOfObjects++;
     }
+
     //-> constructor with arguments
-    Circle(double newRadius){
+    Circle(double newRadius) {
         radius = newRadius;
+        numberOfObjects++;
     }
 
     //methods
-    double getArea(){
+    double getArea() {
         return radius * radius * Math.PI;
     }
-   void setRadius(double value) {
+
+    void setRadius(double value) {
         radius = value;
     }
+    //Static methods
+    static int getNumberOfObjects(){
+        return numberOfObjects;
+    }
+
+    void display(){
+        numberOfObjects = 2; // static variable
+        getNumberOfObjects(); // static method
+
+        getArea(); // instance method
+        radius = 6; //instance variable
+    }
+
 }

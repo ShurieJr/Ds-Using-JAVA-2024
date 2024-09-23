@@ -31,7 +31,7 @@ public class TV {
 
     //3. setchannel
     void setChannel(int newChannel) {
-        if (status) {
+        if (status == true) {
             if (newChannel >= 1 && newChannel <= 120)
                 channel = newChannel;
             else
