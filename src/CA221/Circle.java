@@ -2,7 +2,7 @@ package CA221;
 public class Circle {
     //variables
     double radius;  //instance variable
-   static int numberOfObjects; //static variable
+    static int numberOfObjects; //static variable
     //Constructors
     //-> No argument constructor
     Circle(){
@@ -15,7 +15,8 @@ public class Circle {
         numberOfObjects++;
     }
     //methods
-    double getArea() {
+    double getArea() {  //instance method
+
         return radius * radius * Math.PI;
     }
     public void setRadius(double value) {

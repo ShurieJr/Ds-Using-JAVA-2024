@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd9d2e49-0be4-404c-bacf-53c2f87e4104" name="Changes" comment="Ds using java">
-      <change afterPath="$PROJECT_DIR$/src/CA223/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA221/P1/C1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA221/P1/C2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA221/P2/C3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CA223/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA223/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CA223/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA223/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CA223/TV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA223/TV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CA221/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA221/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CA221/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA221/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.40574712",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "inlay.hints",
     "settings.editor.splitter.proportion": "0.24979524",
     "show.migrate.to.gradle.popup": "false"
   }
