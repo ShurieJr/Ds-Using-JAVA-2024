@@ -23,8 +23,8 @@ public class Student {
         System.out.println("Name (s1): " + student1.name);
         System.out.println("Name (s2): " + student2.name);
 
-        System.out.println("Student1 address: " + student1.toString());
-        System.out.println("Student2 address: " + student2.toString());
+        System.out.println("Student1 address: " + student1);
+        System.out.println("Student2 address: " + student2);
 //        System.out.println("Age: " + student1.age);
 //        System.out.println("IsPartTime: " + student1.isPartTime);
 //        System.out.println("Marks: " + student1.marks);

@@ -20,24 +20,26 @@ public class Main {
 //        System.out.println("Status: " + std.status);
 //        System.out.println("Gender: " + std.gender);
 
-
-//        int score = 0 ;  //local variable
-//        System.out.println(score);
-
         //Class Circle  --   instance & static
-
-        System.out.println("Before object creation: " + Circle.numberOfObjects);
+        //System.out.println("Before object creation: " + Circle.numberOfObjects);
         Circle c1 = new Circle();
-        Circle c2 = new Circle(7.1);
-        Circle c3 = new Circle(6.1);
-
-        System.out.println("After object creation (class) : " + Circle.getNumberOfObjects());
-        System.out.println("After object creation (c1) : " + c1.getNumberOfObjects());
-        System.out.println("After object creation (c2) : " + c2.getNumberOfObjects());
-
-        System.out.println(c1.radius);
-        System.out.println(c2.radius);
-
+        Circle c2 = new Circle(2.1);
+        Circle c3 = new Circle(3.1);
+        //method calling
+        printCircle(c1,c2 ,c3);
+        printCircle(c1,c2 ,c3);
+        printCircle(c1,c2 ,c3);
+    }
+    static void printCircle(Circle obj , Circle obj2 , Circle obj3){
+        System.out.println("object 1 -------------------------------");
+        System.out.println(obj.getRadius());
+        System.out.println(obj.getArea());
+        System.out.println("object 2 -------------------------------");
+        System.out.println(obj2.getRadius());
+        System.out.println(obj2.getArea());
+        System.out.println("object 3 -------------------------------");
+        System.out.println(obj3.getRadius());
+        System.out.println(obj3.getArea());
     }
 
 }

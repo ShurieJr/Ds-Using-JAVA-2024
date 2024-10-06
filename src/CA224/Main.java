@@ -39,8 +39,8 @@ public class Main {
         Circle c2 = new Circle(4);
         Circle c3 = new Circle(55);
         System.out.println("Number of obj (class) :" + Circle.getNumberOfObjects());
-        System.out.println("Number of obj (c1) :" + c1.numberOfObjects);
-        System.out.println("Number of obj (c2) :" + c2.numberOfObjects);
+        System.out.println("Number of obj (c1) :" + Circle.numberOfObjects);
+        System.out.println("Number of obj (c2) :" + Circle.numberOfObjects);
 
 
 

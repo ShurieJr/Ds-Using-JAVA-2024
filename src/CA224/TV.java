@@ -46,19 +46,19 @@ public class TV {
             System.out.println("Error! Turn on your TV!");
     }
     void powerOn(){
-        if(status == false)
+        if(!status)
             status = true;
         else
             System.out.println("Error! Tv already turned on!");
     }
     void powerOff(){
-        if(status == true)
+        if(status)
             status = false;
         else
             System.out.println("Error! Tv already turned off!");
     }
     void volumeUp(){
-        if(status == true){
+        if(status){
             if(volume < 7)
                 volume++;
              else
@@ -69,7 +69,7 @@ public class TV {
     }
 
     void volumeDown(){
-        if(status == true)
+        if(status)
         {
             if(volume > 0)
                 volume--;

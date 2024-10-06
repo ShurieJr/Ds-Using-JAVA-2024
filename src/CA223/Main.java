@@ -16,18 +16,18 @@ public class Main {
         System.out.println("Radius: " + yourCircle.radius);
         System.out.println("Area: " + yourCircle.getArea());
 
-        myCircle.numberOfObjects = 10;
+        Circle.numberOfObjects = 10;
 
         System.out.println("Number of objects (class): " + Circle.numberOfObjects);
-        System.out.println("Number of objects (mycircle): " + myCircle.numberOfObjects);
-        System.out.println("Number of objects (yourcircle): " + yourCircle.numberOfObjects);
+        System.out.println("Number of objects (mycircle): " + Circle.numberOfObjects);
+        System.out.println("Number of objects (yourcircle): " + Circle.numberOfObjects);
 
 
 
     }
 
     //method
-   static int calculateMarks(){
+    int calculateMarks(){
         return 5+5;
     }
 }

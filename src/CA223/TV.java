@@ -15,7 +15,7 @@ public class TV {
     //methods
     //1. Turn On
     void turnOn() {
-        if (status == false)
+        if (!status)
             status = true;
         else
             System.out.println("Error: Tv is already turned on");
@@ -23,7 +23,7 @@ public class TV {
 
     //2. turn off
     void turnOff() {
-        if (status == true)
+        if (status)
             status = false;
         else
             System.out.println("Error: Tv is already turned off");
@@ -31,7 +31,7 @@ public class TV {
 
     //3. setchannel
     void setChannel(int newChannel) {
-        if (status == true) {
+        if (status) {
             if (newChannel >= 1 && newChannel <= 120)
                 channel = newChannel;
             else
@@ -96,7 +96,7 @@ public class TV {
             System.out.println("Error: Turn on your tv!");
     }
 
-    //unmute
+    //un-mute
     void unMute() {
         if (status) {
             volume = tempVolume;

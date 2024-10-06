@@ -16,7 +16,7 @@ public class TV {
     }
     //channel up
     void channelUp(){
-        if(status == true)
+        if(status)
         {
             if(channel < 120) {
                 channel++;

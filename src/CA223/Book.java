@@ -29,9 +29,7 @@ public class Book {
     }
 
     boolean searchBook(String searchTitle) {
-        if (title == searchTitle)
-            return true;
-        return false;
+        return title == searchTitle;
     }
 
    void showInformation(){

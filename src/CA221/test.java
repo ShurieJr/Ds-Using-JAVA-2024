@@ -10,8 +10,8 @@ public class test {
         s2 = s1;
         s2.name = "Mohamed";
 
-        System.out.println(s1.toString());
-        System.out.println(s2.toString());
+        System.out.println(s1);
+        System.out.println(s2);
 
         System.out.println("S1 (name) : " + s1.name);
         System.out.println("S2 (name) : " + s2.name);
