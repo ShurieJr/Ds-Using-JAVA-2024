@@ -8,13 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd9d2e49-0be4-404c-bacf-53c2f87e4104" name="Changes" comment="Ds using java">
-      <change afterPath="$PROJECT_DIR$/src/CA223/P1/C1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CA223/P1/C2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CA223/P2/C3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CA223/PassRef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CA223/University.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CA223/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA224/Stack/Generics/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA224/Stack/Generics/Stacks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,46 +38,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Book.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CA221.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CA223.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PassObj.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PassRef.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Student.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TV.executor&quot;: &quot;Run&quot;,
-    &quot;Application.University.executor&quot;: &quot;Run&quot;,
-    &quot;Application.test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Shuur/Downloads/ProductManagerFilterSearch/Ds-java/src&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.40574712&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.24979524&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Book.executor": "Run",
+    "Application.Box.executor": "Run",
+    "Application.C2.executor": "Run",
+    "Application.CA221.Main.executor": "Run",
+    "Application.CA223.Main.executor": "Run",
+    "Application.Main (1).executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.PassObj.executor": "Run",
+    "Application.PassRef.executor": "Run",
+    "Application.Stacks.executor": "Run",
+    "Application.Student.executor": "Run",
+    "Application.TV.executor": "Run",
+    "Application.University.executor": "Run",
+    "Application.test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Shuur/Downloads/ProductManagerFilterSearch/Ds-java/src",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.40574712",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "settings.sync",
+    "settings.editor.splitter.proportion": "0.24979524",
+    "show.migrate.to.gradle.popup": "false"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Shuur\Downloads\ProductManagerFilterSearch\Ds-java\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="CA223.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CA223.Main" />
+  <component name="RunManager" selected="Application.Stacks">
+    <configuration name="Box" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CA224.Stack.Generics.Box" />
       <module name="Ds-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CA223.*" />
+          <option name="PATTERN" value="CA224.Stack.Generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PassRef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CA223.PassRef" />
+    <configuration name="Stacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CA224.Stack.Generics.Stacks" />
       <module name="Ds-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CA223.*" />
+          <option name="PATTERN" value="CA224.Stack.Generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Stacks" />
+        <item itemvalue="Application.Box" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.University" />
         <item itemvalue="Application.test" />
-        <item itemvalue="Application.PassRef" />
-        <item itemvalue="Application.CA223.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728198305346</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Ds using java">
+      <option name="closed" value="true" />
+      <created>1728460574475</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1728460574475</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
