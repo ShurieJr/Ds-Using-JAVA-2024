@@ -6,7 +6,8 @@ import java.util.Stack;
 public class Reverser {
 
     String reverse(String text) {
-        Stack<Character> s1 = new Stack<Character>();
+
+              Stack<Character> s1 = new Stack<Character>();
         for (int i = 0; i < text.length(); i++)
             s1.push(text.charAt(i));
 
@@ -18,6 +19,7 @@ public class Reverser {
     }
 
     StringBuffer reverseBuffer(String text) {
+
         Stack<Character> s1 = new Stack<Character>();
         for(char letter : text.toCharArray())
             s1.push(letter);
@@ -29,10 +31,22 @@ public class Reverser {
         return result;
     }
     public static void main(String[] args) {
+        Long startTime , endTime;
+
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter text to reverse:");
         String text = scanner.nextLine();
         Reverser test = new Reverser();
+
+        startTime = System.nanoTime();
         System.out.println(test.reverseBuffer(text));
+        endTime = System.nanoTime();
+        System.out.println("time taken with StringBuffer: " + ( endTime - startTime) + " ns");
+
+        startTime = System.nanoTime();
+        System.out.println(test.reverse(text));
+        endTime = System.nanoTime();
+        System.out.println("time taken with String: " + ( endTime - startTime) + " ns");
     }
 }
