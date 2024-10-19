@@ -8,10 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd9d2e49-0be4-404c-bacf-53c2f87e4104" name="Changes" comment="Ds using java">
-      <change afterPath="$PROJECT_DIR$/src/CA224/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PerformanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA221/Stacks/ArrayStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CA223/Stacks/Reverser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA223/Stacks/Reverser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +44,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ArrayStack.executor": "Run",
     "Application.Book.executor": "Run",
     "Application.Box.executor": "Run",
     "Application.C2.executor": "Run",
@@ -84,7 +85,20 @@
       <recent name="C:\Users\Shuur\Downloads\ProductManagerFilterSearch\Ds-java\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PerformanceTest">
+  <component name="RunManager" selected="Application.ArrayStack">
+    <configuration name="ArrayStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CA221.Stacks.ArrayStack" />
+      <module name="Ds-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CA221.Stacks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CA223.Stacks.Reverser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CA223.Stacks.Reverser" />
       <module name="Ds-java" />
@@ -94,6 +108,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Ds-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,39 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reverser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CA221.Stacks.Reverser" />
-      <module name="Ds-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CA221.Stacks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CA223.Stacks.StackDemo" />
-      <module name="Ds-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CA223.Stacks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayStack" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.PerformanceTest" />
         <item itemvalue="Application.CA223.Stacks.Reverser" />
         <item itemvalue="Application.Pair" />
-        <item itemvalue="Application.StackDemo" />
-        <item itemvalue="Application.Reverser" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728905579025</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Ds using java">
+      <option name="closed" value="true" />
+      <created>1728992192578</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1728992192578</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
