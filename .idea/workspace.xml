@@ -8,8 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd9d2e49-0be4-404c-bacf-53c2f87e4104" name="Changes" comment="Ds using java">
-      <change afterPath="$PROJECT_DIR$/src/CA224/Stack/Generics/ArrayStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA224/Stack/Generics/EmptyCollectionException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CA224/Stack/Generics/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA224/Stack/Generics/ArrayStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,48 +41,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArrayStack.executor": "Run",
-    "Application.Book.executor": "Run",
-    "Application.Box.executor": "Run",
-    "Application.C2.executor": "Run",
-    "Application.CA221.Main.executor": "Run",
-    "Application.CA221.Stacks.Stacks.executor": "Run",
-    "Application.CA223.Main.executor": "Run",
-    "Application.CA223.Stacks.Reverser.executor": "Run",
-    "Application.CA224.Stack.Generics.ArrayStack.executor": "Run",
-    "Application.CA224.Stack.Generics.Reverser.executor": "Run",
-    "Application.Main (1).executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Pair.executor": "Run",
-    "Application.PassObj.executor": "Run",
-    "Application.PassRef.executor": "Run",
-    "Application.PerformanceTest.executor": "Run",
-    "Application.Reverser.executor": "Run",
-    "Application.StackDemo.executor": "Run",
-    "Application.Stacks.executor": "Run",
-    "Application.Student.executor": "Run",
-    "Application.TV.executor": "Run",
-    "Application.University.executor": "Run",
-    "Application.test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Shuur/Downloads/ProductManagerFilterSearch/Ds-java/src",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.40574712",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "inlay.hints",
-    "settings.editor.splitter.proportion": "0.24979524",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArrayStack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Book.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Box.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CA221.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CA221.Stacks.Stacks.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CA223.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CA223.Stacks.Reverser.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CA224.Stack.Generics.ArrayStack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CA224.Stack.Generics.Reverser.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Pair.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PassObj.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PassRef.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PerformanceTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reverser.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StackDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Stacks.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Student.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TV.executor&quot;: &quot;Run&quot;,
+    &quot;Application.University.executor&quot;: &quot;Run&quot;,
+    &quot;Application.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Shuur/Downloads/ProductManagerFilterSearch/Ds-java/src&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.40574712&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.24979524&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Shuur\Downloads\ProductManagerFilterSearch\Ds-java\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="CA224.Stack.Generics" />
     </key>
   </component>
   <component name="RunManager" selected="Application.CA224.Stack.Generics.ArrayStack">
@@ -141,10 +145,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.CA224.Stack.Generics.ArrayStack" />
-        <item itemvalue="Application.ArrayStack" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.PerformanceTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.CA223.Stacks.Reverser" />
+        <item itemvalue="Application.ArrayStack" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729337710824</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Ds using java">
+      <option name="closed" value="true" />
+      <created>1729345847451</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1729345847451</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">

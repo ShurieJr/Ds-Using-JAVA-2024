@@ -43,16 +43,18 @@ public class ArrayStack<T> {
 
 
     //peek
-    T peek() throws EmptyStackException {
-        if (isEmpty())
-            throw new EmptyStackException();
-        return stack[top - 1];
+    T peek()  {
+        if(isEmpty()){
+            System.out.println("The stack is empty!");
+            return null;
+        }
+        return stack[top-1];
     }
 
     //pop
-    T pop() throws EmptyStackException {
+    T pop() throws EmptyCollectionException {
         if (isEmpty())
-            throw new EmptyStackException();
+            throw new EmptyCollectionException("Stack");
         top--;
         T removedElement = stack[top];
         stack[top] = null;
