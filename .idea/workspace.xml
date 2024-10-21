@@ -8,8 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd9d2e49-0be4-404c-bacf-53c2f87e4104" name="Changes" comment="Ds using java">
-      <change afterPath="$PROJECT_DIR$/src/CA224/Stack/Generics/EmptyCollectionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA223/Stacks/ArrayStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA223/Stacks/EmptyCollectionException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CA221/Stacks/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA221/Stacks/ArrayStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CA224/Stack/Generics/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA224/Stack/Generics/ArrayStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +52,7 @@
     &quot;Application.CA221.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.CA221.Stacks.Stacks.executor&quot;: &quot;Run&quot;,
     &quot;Application.CA223.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CA223.Stacks.ArrayStack.executor&quot;: &quot;Run&quot;,
     &quot;Application.CA223.Stacks.Reverser.executor&quot;: &quot;Run&quot;,
     &quot;Application.CA224.Stack.Generics.ArrayStack.executor&quot;: &quot;Run&quot;,
     &quot;Application.CA224.Stack.Generics.Reverser.executor&quot;: &quot;Run&quot;,
@@ -88,13 +91,13 @@
       <recent name="CA224.Stack.Generics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CA224.Stack.Generics.ArrayStack">
-    <configuration name="ArrayStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CA221.Stacks.ArrayStack" />
+  <component name="RunManager" selected="Application.CA223.Stacks.ArrayStack">
+    <configuration name="CA223.Stacks.ArrayStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CA223.Stacks.ArrayStack" />
       <module name="Ds-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CA221.Stacks.*" />
+          <option name="PATTERN" value="CA223.Stacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CA223.Stacks.ArrayStack" />
         <item itemvalue="Application.CA224.Stack.Generics.ArrayStack" />
         <item itemvalue="Application.PerformanceTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.CA223.Stacks.Reverser" />
-        <item itemvalue="Application.ArrayStack" />
       </list>
     </recent_temporary>
   </component>
@@ -297,7 +300,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729345847451</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Ds using java">
+      <option name="closed" value="true" />
+      <created>1729427362367</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1729427362367</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -354,5 +365,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ds using java" />
     <option name="LAST_COMMIT_MESSAGE" value="Ds using java" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CA223/Stacks/ArrayStack.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
