@@ -37,7 +37,8 @@ public class ArrayStack<T> {
     // Method to add an element to the stack
     void push(T element) {
         // If the stack is full, expand the capacity
-        if (size() == stack.length)
+        //if (size() == stack.length)
+        if (isFull())
             expandCapacity();
 
         // Add the new element to the top of the stack and increment the top
@@ -80,6 +81,24 @@ public class ArrayStack<T> {
                 '}'; // Return a string containing the top index and the elements of the stack
     }
 
+    //sfull
+    boolean isFull(){
+        return top == stack.length;   //return size() == stack.length;
+    }
+    int getLength(){
+        return stack.length;
+    }
+
+    //display
+    void display(){
+        if(isEmpty())
+            System.out.println("the stack is empty!");
+        else{
+            for(int i = top-1 ; i >= 0; i--)
+                System.out.println(stack[i]);
+        }
+    }
+
     // Main method to test the ArrayStack class
     public static void main(String[] args) {
         // Create a new stack of Strings with a capacity of 4
@@ -89,6 +108,9 @@ public class ArrayStack<T> {
         s1.push("Ali");
         s1.push("Omar");
         s1.push("Hawa");
+        s1.push("Gedi");
+        s1.push("Gedi");
+        s1.push("Gedi");
         s1.push("Gedi");
         s1.push("Halima"); // This will trigger the expandCapacity method since the stack is full
 
@@ -105,6 +127,9 @@ public class ArrayStack<T> {
         System.out.println("top element: " + s1.peek());
 
         // Display the elements of the stack
-        System.out.println("stack elements : " + s1.toString());
+        System.out.println("stack elements : " );
+        s1.display();
+        System.out.println("stack capacity: " + s1.getLength());
+        System.out.println("sifull:" + s1.isFull());
     }
 }
