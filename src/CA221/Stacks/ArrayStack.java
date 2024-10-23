@@ -37,7 +37,8 @@ public class ArrayStack<T> {
     // Method to add an element to the stack
     void push(T element) {
         // If the stack is full, expand the capacity
-        if (size() == stack.length)
+        //if (size() == stack.length)
+        if (isFull())
             expandCapacity();
 
         // Add the new element to the top of the stack and increment the top
@@ -60,10 +61,10 @@ public class ArrayStack<T> {
     }
 
     // Method to remove and return the top element of the stack
-    T pop() throws EmptyStackException {
+    T pop() throws EmptyCollectionException {
         if (isEmpty()) {
             // Throw an exception if the stack is empty
-            throw new EmptyStackException();
+            throw new EmptyCollectionException("Stack");
         }
         top--; // Decrease the top index
         T removedElement = stack[top]; // Store the removed element
@@ -80,11 +81,36 @@ public class ArrayStack<T> {
                 '}'; // Return a string containing the top index and the elements of the stack
     }
 
+    //isFull method
+    boolean isFull() {
+        return size() == stack.length;
+        // return top == stack.length;
+    }
+
+    //getCapacity
+    int gerCapacity() {
+        return stack.length;
+    }
+
+    //display - LIFO
+
+    public void display() {
+//        int index = top-1;
+//        while (index >= 0) {
+//            System.out.println(stack[index]);
+//            index--;
+//        }
+
+        for (int i = top - 1; i >= 0; i--)
+            System.out.println(stack[i]);
+    }
+
+
     // Main method to test the ArrayStack class
     public static void main(String[] args) {
         // Create a new stack of Strings with a capacity of 4
         ArrayStack<String> s1 = new ArrayStack<String>(4);
-
+        s1.peek();
         // Add elements to the stack
         s1.push("Ali");
         s1.push("Omar");
@@ -105,6 +131,8 @@ public class ArrayStack<T> {
         System.out.println("top element: " + s1.peek());
 
         // Display the elements of the stack
-        System.out.println("stack elements : " + s1.toString());
+//        System.out.println("stack elements : " + s1.toString());
+        s1.display();
+        System.out.println("top : " + s1.peek());
     }
 }
