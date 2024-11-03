@@ -8,10 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd9d2e49-0be4-404c-bacf-53c2f87e4104" name="Changes" comment="Ds using java">
-      <change afterPath="$PROJECT_DIR$/src/CA221/Stacks/EmptyCollectionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA224/LinkedStacks/LinkedStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA224/LinkedStacks/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CA221/Stacks/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA221/Stacks/ArrayStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CA223/Stacks/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA223/Stacks/ArrayStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +71,7 @@
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Shuur/Downloads/ProductManagerFilterSearch/Ds-java/src&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Shuur/IdeaProjects/Ds-Using-JAVA-2024/src/CA221/LinkedStacks&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.40574712&quot;,
@@ -84,6 +83,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Shuur\IdeaProjects\Ds-Using-JAVA-2024\src\CA221\LinkedStacks" />
       <recent name="C:\Users\Shuur\Downloads\ProductManagerFilterSearch\Ds-java\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -323,7 +323,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729596974013</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Ds using java">
+      <option name="closed" value="true" />
+      <created>1730633068010</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1730633068010</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
