@@ -1,5 +1,7 @@
 package CA223.LinkedStacks;
 
+import java.util.Scanner;
+
 public class LinkedStack <T>{
     int count;
     Node<T> top ;  //head
@@ -44,12 +46,49 @@ public class LinkedStack <T>{
         }
         return top.getElement();
     }
+    //display linkedstack elements
+    void display(){
+        //if is empty
+        if(isEmpty())
+            System.out.println("Stack is empty!");
+        else{
+            Node<T> currentAddress = top;
+            while (currentAddress != null){
+                System.out.println(currentAddress.getElement());
+                currentAddress = currentAddress.getNext();
+            }
+        }
+    }
+    //searchElement
+    void searchElement(T data){
+        boolean found = false;
+        int counter = 0;
+        if(isEmpty())
+            System.out.println("Stack is empty!");
+        else{
+            Node<T> currentAddress = top;
+            while (currentAddress != null){
+                if(data.equals(currentAddress.getElement())){
+                    found = true;
+                    counter++;
+                }
 
+                currentAddress = currentAddress.getNext();
+            }
+        }
+      //display result
+        if(found == false)
+            System.out.println("not found!");
+        else
+            System.out.println("found " + counter + " times");
+    }
 
 
     //main method
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
         LinkedStack<String> names = new LinkedStack<>();
+        names.push("Ali");
         names.push("Ali");
         names.push("Gedi");
         names.push("Hawa");
@@ -58,5 +97,9 @@ public class LinkedStack <T>{
         System.out.println("top: " + names.peek() );
         System.out.println("size: " + names.size() );
         System.out.println("empty: " + names.isEmpty() );
+        names.display();
+        System.out.println("Enter name to search: ");
+        String data = scanner.next();
+        names.searchElement(data);
     }
 }
