@@ -47,5 +47,69 @@ public class LinkedStack<T> {
         }
         return top.getElement();
     }
-    //print
+    //print stack elements
+    void display(){
+        if(!isEmpty()){
+            Node<T> currentAddress = top;
+            while (currentAddress != null){
+                System.out.println(currentAddress);
+                System.out.println(currentAddress.getElement());
+                currentAddress = currentAddress.getNext();
+            }
+        }
+        else
+            System.out.println("Empty!");
+    }
+    //search
+//    boolean search(T data){
+//        boolean found = false;
+//        Node<T> current = top;
+//        if(isEmpty()){
+//            System.out.println("EMPTY!");
+//        }
+//        else {
+//            while (current != null){
+//                if(data.equals(current.getElement()))
+//                    found = true;
+//                current = current.getNext();
+//            }
+//        }
+//        return found;
+//    }
+
+    void search(T data){
+        int counter = 0;
+        Node<T> current = top;
+        if(isEmpty()){
+            System.out.println("EMPTY!");
+        }
+        else {
+            while (current != null){
+                if(data.equals(current.getElement())){
+                    counter++;
+                    System.out.println(current);
+                }
+                current = current.getNext();
+            }
+        }
+       //display
+        if(counter == 0)
+            System.out.println("Not found!");
+        else
+            System.out.println(data + " found " + counter + " times");
+    }
+    //main method
+    public static void main(String[] args) {
+        LinkedStack<String> names = new LinkedStack<>();
+        names.push("Mohamed");
+        names.push("farah");
+        names.push("Gedi");
+        names.push("Gedi");
+        names.push("Gedi");
+        names.display();
+        System.out.println("top: " + names.peek());
+        System.out.println("size: " + names.size());
+
+        names.search("Gedi");
+    }
 }

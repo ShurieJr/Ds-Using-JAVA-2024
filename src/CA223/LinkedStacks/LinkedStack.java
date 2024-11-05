@@ -72,7 +72,6 @@ public class LinkedStack <T>{
                     found = true;
                     counter++;
                 }
-
                 currentAddress = currentAddress.getNext();
             }
         }
