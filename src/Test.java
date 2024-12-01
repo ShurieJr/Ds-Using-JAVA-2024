@@ -14,5 +14,7 @@ public class Test {
         Counter c2 = new Counter();
         Counter c3 = new Counter();
         System.out.println(Counter.getCount());
+
+
     }
 }
