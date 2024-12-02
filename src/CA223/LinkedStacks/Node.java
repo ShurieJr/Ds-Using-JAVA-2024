@@ -8,12 +8,10 @@ public class Node<T> {
         element = null;
         next = null;
     }
-
     Node(T element) {
         this.element = element;
         next = null;
     }
-
     // get & set
     public Node<T> getNext() {
         return next;
