@@ -8,9 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd9d2e49-0be4-404c-bacf-53c2f87e4104" name="Changes" comment="Ds using java">
-      <change afterPath="$PROJECT_DIR$/src/CA223/Queues/Queueunterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA221/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA223/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA224/Factorial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CA223/LinkedStacks/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA223/LinkedStacks/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +56,7 @@
     "Application.CA224.LinkedStacks.LinkedStack.executor": "Run",
     "Application.CA224.Stack.Generics.ArrayStack.executor": "Run",
     "Application.CA224.Stack.Generics.Reverser.executor": "Run",
+    "Application.Factorial.executor": "Run",
     "Application.LinkedStack.executor": "Run",
     "Application.Main (1).executor": "Run",
     "Application.Main.executor": "Run",
@@ -73,8 +75,10 @@
     "Application.University.executor": "Run",
     "Application.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Shuur/IdeaProjects/Ds-Using-JAVA-2024/src/CA221/LinkedStacks",
     "project.structure.last.edited": "Project",
@@ -92,10 +96,13 @@
       <recent name="C:\Users\Shuur\Downloads\ProductManagerFilterSearch\Ds-java\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="CA221" />
+      <recent name="CA223" />
+      <recent name="CA224" />
       <recent name="CA224.Stack.Generics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Queueunterface">
+  <component name="RunManager" selected="Application.Factorial">
     <configuration name="CA224.LinkedStacks.LinkedStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CA224.LinkedStacks.LinkedStack" />
       <module name="Ds-java" />
@@ -109,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CA223.LinkedStacks.LinkedStack" />
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CA224.Factorial" />
       <module name="Ds-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CA223.LinkedStacks.*" />
+          <option name="PATTERN" value="CA224.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.Queueunterface" />
         <item itemvalue="Application.QueueInterface" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.CA224.LinkedStacks.LinkedStack" />
-        <item itemvalue="Application.LinkedStack" />
       </list>
     </recent_temporary>
   </component>
