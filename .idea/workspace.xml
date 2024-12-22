@@ -8,10 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd9d2e49-0be4-404c-bacf-53c2f87e4104" name="Changes" comment="Ds using java">
-      <change afterPath="$PROJECT_DIR$/src/CA221/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CA223/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CA224/Factorial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CA221/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA221/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CA223/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CA223/Factorial.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ShurieJr&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ShurieJr/Ds-Using-JAVA-2024.git&quot;,
+    &quot;accountId&quot;: &quot;4589ded5-a136-4c2f-821e-a5f66df1feec&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/CA224/Stack/Generics/Stacks.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -42,54 +53,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArrayStack.executor": "Run",
-    "Application.Book.executor": "Run",
-    "Application.Box.executor": "Run",
-    "Application.C2.executor": "Run",
-    "Application.CA221.Main.executor": "Run",
-    "Application.CA221.Stacks.Stacks.executor": "Run",
-    "Application.CA223.Main.executor": "Run",
-    "Application.CA223.Stacks.ArrayStack.executor": "Run",
-    "Application.CA223.Stacks.Reverser.executor": "Run",
-    "Application.CA224.LinkedStacks.LinkedStack.executor": "Run",
-    "Application.CA224.Stack.Generics.ArrayStack.executor": "Run",
-    "Application.CA224.Stack.Generics.Reverser.executor": "Run",
-    "Application.Factorial.executor": "Run",
-    "Application.LinkedStack.executor": "Run",
-    "Application.Main (1).executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Pair.executor": "Run",
-    "Application.PassObj.executor": "Run",
-    "Application.PassRef.executor": "Run",
-    "Application.PerformanceTest.executor": "Run",
-    "Application.QueueInterface.executor": "Run",
-    "Application.Queueunterface.executor": "Run",
-    "Application.Reverser.executor": "Run",
-    "Application.StackDemo.executor": "Run",
-    "Application.Stacks.executor": "Run",
-    "Application.Student.executor": "Run",
-    "Application.TV.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.University.executor": "Run",
-    "Application.test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Shuur/IdeaProjects/Ds-Using-JAVA-2024/src/CA221/LinkedStacks",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.40574712",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "settings.editor.splitter.proportion": "0.24979524",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArrayStack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Book.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Box.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CA221.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CA221.Stacks.Stacks.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CA223.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CA223.Stacks.ArrayStack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CA223.Stacks.Reverser.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CA224.LinkedStacks.LinkedStack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CA224.Stack.Generics.ArrayStack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CA224.Stack.Generics.Reverser.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedStack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Pair.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PassObj.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PassRef.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PerformanceTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QueueInterface.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Queueunterface.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reverser.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StackDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Stacks.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Student.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TV.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.University.executor&quot;: &quot;Run&quot;,
+    &quot;Application.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Shuur/IdeaProjects/Ds-Using-JAVA-2024/src/CA221/LinkedStacks&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.40574712&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.24979524&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Shuur\IdeaProjects\Ds-Using-JAVA-2024\src\CA221\LinkedStacks" />
@@ -389,7 +400,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733052956314</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Ds using java">
+      <option name="closed" value="true" />
+      <created>1734785656095</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1734785656095</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">

@@ -3,8 +3,20 @@ package CA223;
 public class Factorial {
     public static void main(String[] args) {
 
+        long startTime, endTime;
+
+        // Testing with recursion
+        startTime = System.nanoTime();
         System.out.println("factorail(4): " + factorial(4));
+        endTime = System.nanoTime();
+        System.out.println("Time taken with recursion: " + (endTime - startTime) + " ns");
+
+        // Testing with Loop
+        startTime = System.nanoTime();
         System.out.println("factorailLoop(4): " + factorialLoop(4));
+        endTime = System.nanoTime();
+        System.out.println("Time taken with Loop: " + (endTime - startTime) + " ns");
+
         int marks[] = {10, 20, 30, 40};
         System.out.println("linearsum(): " + linearSum(marks, marks.length - 1));
 
