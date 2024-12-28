@@ -8,9 +8,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd9d2e49-0be4-404c-bacf-53c2f87e4104" name="Changes" comment="Ds using java">
-      <change afterPath="$PROJECT_DIR$/src/CA224/Searching/Searching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CA224/Searching/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CA224/Sorting/Sorting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +99,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.40574712",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "inlay.hints",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "settings.editor.splitter.proportion": "0.24979524",
     "show.migrate.to.gradle.popup": "false"
   }
@@ -430,7 +427,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735126163978</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Ds using java">
+      <option name="closed" value="true" />
+      <created>1735393992425</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1735393992425</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
