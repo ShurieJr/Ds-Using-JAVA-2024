@@ -8,6 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd9d2e49-0be4-404c-bacf-53c2f87e4104" name="Changes" comment="Ds using java">
+      <change afterPath="$PROJECT_DIR$/src/CA221/Searching/Searching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CA221/Searching/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +60,8 @@
     "Application.Box.executor": "Run",
     "Application.C2.executor": "Run",
     "Application.CA221.Main.executor": "Run",
+    "Application.CA221.Searching.Searching.executor": "Run",
+    "Application.CA221.Searching.main.executor": "Run",
     "Application.CA221.Stacks.Stacks.executor": "Run",
     "Application.CA223.Main.executor": "Run",
     "Application.CA223.Stacks.ArrayStack.executor": "Run",
@@ -116,13 +120,13 @@
       <recent name="CA224.Stack.Generics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Sorting">
-    <configuration name="CA224.Searching.Searching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CA224.Searching.Searching" />
+  <component name="RunManager" selected="Application.CA221.Searching.Searching">
+    <configuration name="CA221.Searching.Searching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CA221.Searching.Searching" />
       <module name="Ds-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CA224.Searching.*" />
+          <option name="PATTERN" value="CA221.Searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +134,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Searching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CA223.searching.Searching" />
+    <configuration name="CA221.Searching.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CA221.Searching.main" />
       <module name="Ds-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CA223.searching.*" />
+          <option name="PATTERN" value="CA221.Searching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CA224.Searching.Searching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CA224.Searching.Searching" />
+      <module name="Ds-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CA224.Searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,20 +186,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tt" />
-      <module name="Ds-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CA221.Searching.Searching" />
+        <item itemvalue="Application.CA221.Searching.main" />
         <item itemvalue="Application.Sorting" />
         <item itemvalue="Application.CA224.Searching.Searching" />
         <item itemvalue="Application.main" />
-        <item itemvalue="Application.Searching" />
-        <item itemvalue="Application.tt" />
       </list>
     </recent_temporary>
   </component>
@@ -435,7 +445,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735393992425</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Ds using java">
+      <option name="closed" value="true" />
+      <created>1735395641984</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1735395641984</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
